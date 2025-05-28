@@ -1,0 +1,101 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar-custom {
+    background-color: #8e44ad;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-toggler {
+    color: #fff;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    overflow-y: auto;
+    transition: all 0.3s;
+}
+
+.sidebar a {
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.sidebar-collapsed {
+    margin-left: 0 !important;
+}
+
+.sidebar-hidden {
+    transform: translateX(-100%);
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+.main-collapsed {
+    margin-left: 0 !important;
+}
+
+.btn-toggle-sidebar {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 15px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.bg-light-purple {
+    background-color: #d6b3f0 !important;
+    color: #000 !important; 
+}
+
+.btn-primary {
+    background-color: #d6b3f0;
+    border-color: #d6b3f0;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #c09ee0;
+    border-color: #c09ee0;
+}
+
+.btn-outline-primary {
+    color: #d6b3f0;
+    border-color: #d6b3f0;
+}
+
+.btn-outline-primary:hover {
+    background-color: #d6b3f0;
+    color: #000;
+}
+
+.card-body i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.card-text {
+    font-size: 1.5rem;
+}
