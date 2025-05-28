@@ -24,6 +24,16 @@ El sistema en su conjunto aborda el problema de la **desorganización y la pérd
 
 ---
 
+## 🌟 Objetivos Principales
+
+* **Optimizar la gestión de reservas:** Eliminando errores y duplicidades.
+* **Proporcionar información en tiempo real:** Datos actualizados sobre ocupación y disponibilidad.
+* **Mejorar la experiencia del cliente:** Facilitando reservas fluidas y atención eficiente.
+* **Aumentar la eficiencia administrativa:** Optimizando procesos internos y brindando una visión clara del hotel.
+* **Garantizar la seguridad y fiabilidad:** Con autenticación robusta y control de accesos por roles.
+
+---
+
 ## 🚀 Características Principales
 
 * **Gestión Completa del Ciclo de Vida de la Reserva:** Administra el registro de clientes, la asignación de habitaciones, y la creación, modificación y cancelación de reservas, asegurando la disponibilidad y el control preciso de los recursos.
