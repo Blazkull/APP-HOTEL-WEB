@@ -1,85 +1,57 @@
-# 🏨 Aplicación Web de Gestión de Reservas Hoteleras
-
-¡Bienvenido al proyecto de gestión de reservas hoteleras! Este repositorio contiene tanto el **backend (API RESTful)** como el **frontend (Interfaz de Usuario Web)** de la aplicación, diseñados para trabajar en conjunto y ofrecer una solución completa para la administración de habitaciones, clientes, reservas y más.
-
----
-
-## 🌟 Visión General del Proyecto
-
-Este sistema integral permite la gestión eficiente de un hotel, desde el registro de habitaciones y clientes hasta la creación y control de reservas. El **backend**, desarrollado con FastAPI, actúa como el cerebro de la aplicación, proporcionando una API robusta y escalable. El **frontend**, construido con tecnologías web estándar (HTML, CSS, JavaScript), ofrece una interfaz de usuario intuitiva para interactuar con todas las funcionalidades del sistema.
-
-### Funciones Clave:
-
-* **Gestión de Habitaciones:** Administración de habitaciones y sus diferentes tipos (individual, doble, suite, etc.).
-* **Gestión de Clientes:** Registro y administración de la información de los clientes.
-* **Gestión de Reservas:** Creación, consulta, modificación y cancelación de reservas, con control de estados (pendiente, confirmada, cancelada).
-* **Administración de Usuarios:** Control de usuarios y roles dentro del sistema.
-* **Panel de Control (Dashboard):** Vista general con información relevante (disponible en el frontend).
-
----
-
-## 🚀 Tecnologías Utilizadas
-
-### Backend
+# 🏨 APP RESERVATION HOTEL WEB
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green.svg)](https://fastapi.tiangolo.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-8%2B-blue.svg)](https://www.mysql.com/)
-[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red.svg)](https://www.sqlalchemy.org/)
-[![Pydantic](https://img.shields.io/badge/Pydantic-DataValidation-lightgrey.svg)](https://pydantic-docs.helpmanual.io/)
-[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-blueviolet.svg)](https://www.uvicorn.org/)
-
-* **Python 3.10+**: Lenguaje de programación principal.
-* **FastAPI**: Framework web de alto rendimiento para construir la API RESTful.
-* **MySQL 8+**: Sistema de gestión de bases de datos relacionales.
-* **SQLAlchemy**: ORM (Object-Relational Mapper) para interactuar con la base de datos.
-* **Pydantic**: Para la validación de datos y la gestión de configuraciones.
-* **Python-dotenv**: Para la gestión de variables de entorno.
-* **PyMySQL**: Conector Python para MySQL.
-* **Uvicorn**: Servidor ASGI para ejecutar la aplicación FastAPI.
-* **Swagger UI / ReDoc**: Documentación interactiva automática de la API.
-
-### Frontend
-
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E.svg)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 [![CSS](https://img.shields.io/badge/CSS-Styling-1572B6.svg)](https://developer.mozilla.org/es/docs/Web/CSS)
 [![HTML](https://img.shields.io/badge/HTML5-Markup-E34F26.svg)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![Axios](https://img.shields.io/badge/Axios-HTTP%20Client-5A29E4.svg)](https://axios-http.com/es/)
-
-* **HTML**: Para la estructura de las páginas web.
-* **CSS**: Para el diseño y estilo visual de la interfaz.
-* **JavaScript**: Para la lógica interactiva del lado del cliente.
-* **Axios**: Cliente HTTP basado en promesas para realizar peticiones al backend.
-
-### Herramientas de Desarrollo Comunes
-
-[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-IDE-blue.svg)](https://code.visualstudio.com/)
-[![Git](https://img.shields.io/badge/Git-VCS-F05032.svg)](https://git-scm.com/)
-[![Warp](https://img.shields.io/badge/Warp-Terminal-black.svg)](https://www.warp.dev/)
-[![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-Tool-orange.svg)](https://dev.mysql.com/downloads/workbench/)
 
 ---
 
-## 📦 Requisitos Previos
-
-Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
-
-1.  **Python 3.10 o superior**: [Descargar Python](https://www.python.org/downloads/)
-2.  **MySQL Server 8 o superior**: [Descargar MySQL Server](https://dev.mysql.com/downloads/mysql/)
-3.  **MySQL Workbench**: [Descargar MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (Para ejecutar scripts SQL y gestionar la DB).
-4.  **Git**: [Descargar Git](https://git-scm.com/) (Para clonar el repositorio).
-5.  **Un navegador web moderno** (Chrome, Firefox, Edge, etc.).
+"APP RESERVATION HOTEL WEB" es una aplicación integral para la **gestión de reservas hoteleras**, diseñada por **TECNOSOLUTIONS S.A.S** para resolver los desafíos de los sistemas de reserva manuales. Este proyecto está compuesto por un robusto **backend API RESTful** y una **interfaz de usuario web intuitiva**. Permite administrar de forma eficiente habitaciones, clientes, reservas y usuarios, ofreciendo una solución completa y digitalizada para la operación de un hotel.
 
 ---
 
-## 🛠️ Configuración y Ejecución del Proyecto (Paso a Paso)
+## 🌟 Descripción General del Proyecto
 
-Sigue estos pasos para poner en marcha tanto el backend como el frontend de la aplicación.
+Este proyecto se divide en dos componentes principales, cada uno con su propia documentación detallada:
 
-### Paso 1: Clonar el Repositorio
+1.  **Backend (API RESTful):** Desarrollado con **FastAPI (Python)** y gestionado con **MySQL Workbench**, este componente es la columna vertebral de la aplicación. Maneja toda la lógica de negocio, incluyendo la autenticación segura, la gestión de clientes y habitaciones, y el procesamiento de reservas. Proporciona los **endpoints seguros y estructurados** necesarios para la interacción con el sistema.
+2.  **Frontend (Interfaz de Usuario Web):** Construido con **HTML, CSS, JavaScript y Bootstrap**, este componente ofrece una experiencia de usuario fluida e intuitiva. Permite a los **Administradores** y **Recepcionistas** interactuar con las funcionalidades expuestas por el backend, facilitando la visualización, registro y gestión de datos de reservas, clientes, y el estado de las habitaciones en tiempo real.
 
-Abre tu terminal y ejecuta:
+El sistema en su conjunto aborda el problema de la **desorganización y la pérdida de información** asociada a los métodos manuales de reserva, digitalizando los procesos para optimizar la operación interna y mejorar significativamente la atención al cliente.
 
-```bash
-git clone [https://github.com/Blazkull/APP-RESERVATION-HOTEL-WEB.git](https://github.com/Blazkull/APP-RESERVATION-HOTEL-WEB.git)
-cd APP-RESERVATION-HOTEL-WEB
+---
+
+## 🚀 Características Principales
+
+* **Gestión Completa del Ciclo de Vida de la Reserva:** Administra el registro de clientes, la asignación de habitaciones, y la creación, modificación y cancelación de reservas, asegurando la disponibilidad y el control preciso de los recursos.
+* **API Robusta y Segura:** Un backend escalable desarrollado con **FastAPI** que garantiza la **integridad de los datos** mediante **validaciones en backend** y una **autenticación de usuarios** robusta basada en roles (Administrador y Recepcionista).
+* **Interfaz de Usuario Intuitiva:** Un frontend web que facilita la interacción con el sistema, permitiendo la visualización del estado de las habitaciones (Disponibles, Reservadas, Ocupadas, Limpieza) y la generación de **reportes de ocupación** en tiempo real.
+* **Control de Acceso Basado en Roles:** Diferencia las funcionalidades disponibles para **Administradores** (configuración general, gestión de usuarios internos, acceso a todos los reportes) y **Recepcionistas** (gestión diaria de reservas, registro de clientes, atención directa a huéspedes).
+* **Digitalización y Optimización:** Transforma los procesos manuales propensos a errores en un flujo de trabajo digital eficiente, eliminando la duplicidad y pérdida de información.
+* **Documentación Detallada:** Cada componente cuenta con su propia documentación específica, incluyendo guías de configuración, instalación, uso y la estructura del proyecto, facilitando el desarrollo y mantenimiento.
+
+---
+
+## 📚 Documentación Específica
+
+Para obtener información detallada sobre la configuración, instalación, uso y estructura de cada componente, consulta los siguientes archivos README:
+
+* **[Documentación del Backend API RESTful](APLICACION%20WEB%20HOTEL/BACKEND-APP-RESERVATION-HOTEL-WEB/README.md)**
+* **[Documentación del Frontend (Interfaz de Usuario Web)](APLICACION%20WEB%20HOTEL/FRONT-APP-HOTEL-administrador/README.MD)**
+
+---
+
+## 👥 Colaboradores
+
+| Nombre             | Rol                   | GitHub                                         |
+| :----------------- | :-------------------- | :--------------------------------------------- |
+| Jhoan Acosta       | Backend Developer     | [https://github.com/Blazkull](https://github.com/Blazkull) |
+| Kevin Perez        | Frontend Developer    | [https://github.com/kevinperezroa](https://github.com/kevinperezroa) |
+
+
+---
+
+¡Esperamos que disfrutes utilizando y contribuyendo a "APP RESERVATION HOTEL WEB" para optimizar la gestión de reservas de tu hotel!
