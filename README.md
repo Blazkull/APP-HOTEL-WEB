@@ -41,7 +41,10 @@ Para obtener información detallada sobre la configuración, instalación, uso y
 
 * **[Documentación del Backend API RESTful](APLICACION%20WEB%20HOTEL/BACKEND-APP-RESERVATION-HOTEL-WEB/README.md)**
 * **[Documentación del Frontend (Interfaz de Usuario Web)](APLICACION%20WEB%20HOTEL/FRONT-APP-HOTEL-administrador/README.MD)**
-
+* **[Documentación del Diagrama de flujo (Aplicativo Miro)](https://miro.com/welcomeonboard/Q3g2bElTNnY2ZDFtcTRielk0U1ZLZjJiZjNlemhWRzExUHlvOWpjWFh1S0ZYUnFFTjk3WkpYQ2J3NHJUcklpSGpYSjNQdDRaK0tIalNzTWY5WWFWYW1Ka1o4QnI1Um1pQkttd1V5SkpPUkJqTmxOQlpLM25mQVNFWkZNUVV3MDlyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=243782966114)**
+* **[Documentación de la ficha técnica (Recolección y entrega de datos)](https://github.com/Blazkull/APP-HOTEL-WEB/blob/main/FICHA%20TECNICA%20APP%20HOTEL.pdf)**
+* **[Documentación de la presentacion del proyecto (Diapositivas)](https://github.com/Blazkull/APP-HOTEL-WEB/blob/main/FICHA%20TECNICA%20APP%20HOTEL.pdf)**
+* **[Video explicativo del aplicativo (Video)]((https://drive.google.com/file/d/1KFW7BIMFhRMQSU0VKcCWmiPjF0uEt0mI/view?usp=sharing))**
 ---
 
 ## 👥 Colaboradores
