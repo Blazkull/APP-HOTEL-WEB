@@ -104,7 +104,6 @@ Los principales endpoints del backend con los que interactúa este frontend prob
 |------------|------------------ |----------------------------------------|
 | Jhoan Acosta| Backend Developer| https://github.com/Blazkull            |
 | Kevin Perez| Frontend Developer| https://github.com/kevinperezroa       |
-| Rafael Jimenez| Database Administrator | https://github.com/Tstark601        |
 
 
 ## 📌 NOTAS FINALES
