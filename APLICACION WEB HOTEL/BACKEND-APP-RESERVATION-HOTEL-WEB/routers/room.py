@@ -16,7 +16,7 @@ def list_room(
     session: SessionDep,
     #paginacion
     page: int = Query(1, ge=1, description="Número de página a obtener"),
-    limit: int = Query(10, ge=1, le=100, description="Cantidad de items por página"),
+    limit: int = Query(20, ge=1, le=100, description="Cantidad de items por página"),
     ):
     try:
         offset = (page - 1) * limit
